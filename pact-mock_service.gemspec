@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pact/mock_service/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "pact-mock_service"
+  gem.name          = "hs-pact-mock_service"
   gem.version       = Pact::MockService::VERSION
   gem.authors       = ["James Fraser", "Sergei Matheson", "Brent Snook", "Ronald Holshausen", "Beth Skurrie"]
   gem.email         = ["james.fraser@alumni.swinburne.edu", "sergei.matheson@gmail.com", "brent@fuglylogic.com", "uglyog@gmail.com", "beth@bethesque.com"]
@@ -26,7 +26,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'thor', '>= 0.19', '< 2.0'
   gem.add_runtime_dependency 'json'
   gem.add_runtime_dependency 'webrick', '~> 1.3'
-  gem.add_runtime_dependency 'pact-support', '~> 1.17.1', '>= 1.16.4'
+  gem.add_runtime_dependency 'hs-pact-support', '~>  1.17.1'
   gem.add_runtime_dependency 'filelock', '~> 1.1'
 
   gem.add_development_dependency 'rack-test', '~> 0.7'
